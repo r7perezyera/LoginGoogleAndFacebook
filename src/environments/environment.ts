@@ -6,7 +6,7 @@ export const environment = {
   production: false
 };
 
-export const firebaseConfig = {
+/* export const firebaseConfig = {
   apiKey: "AIzaSyCXDV4VTlBSUHNxDX97fXdcm9ijZB1ybLc",
   authDomain: "logingaf.firebaseapp.com",
   databaseURL: "https://logingaf.firebaseio.com",
@@ -15,7 +15,19 @@ export const firebaseConfig = {
   messagingSenderId: "945473312650",
   appId: "1:945473312650:web:a84003444e5fec8a901a73",
   measurementId: "G-YMM4DCZYH4"
+}; */
+
+export const firebaseConfig = {
+  apiKey: "AIzaSyB6gynmPMqW6dzEdID7sNSpdRaQMiR5WfA",
+  authDomain: "login-gaf.firebaseapp.com",
+  databaseURL: "https://login-gaf.firebaseio.com",
+  projectId: "login-gaf",
+  storageBucket: "login-gaf.appspot.com",
+  messagingSenderId: "1030830604595",
+  appId: "1:1030830604595:web:266318a32529a42ae1fe46",
+  measurementId: "G-VN7NCZ72CB"
 };
+
 
 /*
  * For easier debugging in development mode, you can import the following file
